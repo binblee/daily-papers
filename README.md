@@ -26,7 +26,8 @@ Agent code in notebook `main.ipynb`.
 
 ## Configuration
 
-To use with DashScope models, set the following environment variables:
+LiteLLM is using dashscope-intl api endpoint by default, if your dashscope
+api key is not intl, you can update environment variables like below:
 
 ```bash
 DASHSCOPE_API_BASE=https://dashscope.aliyuncs.com/compatible-mode/v1
